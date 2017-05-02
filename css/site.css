@@ -1,0 +1,135 @@
+body {
+    font-family: "Crimson Text","Times New Roman",serif;
+    background-color: #F2FFFC;
+    line-height: 1.5;
+}
+.titulo {
+    font-family: "Open Sans Condensed", sans-serif;
+    text-align: center;
+    background-color: #851944;
+    padding: 25px;
+    border-bottom: 10px solid black;
+    font-size: 60px;
+    text-transform: uppercase;
+}
+h2 {
+    font-family: "Open Sans Condensed", "Arial", sans-serif;
+    font-size: 30px;
+    clear: both;
+}
+p {
+    text-align: justify;
+    font-size: 120%;
+    margin: 20px 0;
+}
+blockquote {
+    margin: 20px 40px;
+    background-color: #D9E5E3;
+    padding: 20px;
+    border: 10px solid #C2CCCA;
+    width:250px;
+    box-sizing: border-box;
+}
+cite{
+    float: right;
+    font-style: italic;
+    display: block;
+}
+.navegacao-site {
+    background-color: #3C1D3D;
+    color: #F2FFFC;
+    text-align: center;
+    float: right;
+    clear: right;
+    width: 15%;
+    
+}
+aside a{
+    color: inherit;
+    display: inline-block
+}
+aside h1{
+    margin: 25px;
+    font-size: 30px;
+}
+.redes-sociais li{
+    display: inline-block;
+}
+.rodape {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    color: #F2FFFC;
+    clear: both;
+}
+a {
+    color: #851944;
+    font-family: "Open Sans Condensed", serif;
+}
+.texto {
+    width: 720px;
+    margin: auto;
+    padding: 30px;
+}
+strong{
+    font-weight: bold;
+}
+em{
+    font-style: italic;
+}
+article {
+    padding-bottom: 30px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+.leia-mais {
+    background-color: #E6E7E8;
+    padding: 8px;
+    margin: 16px;
+    display: block;
+    text-align: center;
+}
+nav a{
+    text-transform: lowercase;
+}
+.redes-sociais a{
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    text-indent: -99999px;
+}
+.github{
+    background-image: url(../img/github.png)
+}
+.twitter{
+    background-image: url(../img/twitter.png)
+}
+.linkedin{
+    background-image: url(../img/linkedin.png)
+}
+.fiat{
+    float: right;
+}
+.petrobras{
+    float: left;
+}
+main {
+    float: left;
+    width: 85%;
+}
+.minha-foto {
+    box-sizing: border-box;
+    border: 10px solid black;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.navegacao-site {
+    box-sizing: border-box;
+    border: 10px solid black;
+    width: 15%;
+    position: relative;
+    top: 310px;
+}
